@@ -18,3 +18,7 @@ mkdir build
 cd build
 
 cmake ..
+
+make
+
+You will find the executable in build/bin/
