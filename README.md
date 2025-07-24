@@ -1,24 +1,9 @@
-# Port Station
+# Port Hub
 
-LxPS allows users to interface directly with serial ports on linux systems (for now).
+This tool provides a gui to directly interact with ports connected on linux devices.
 
-The main goal of this tool is to enhance interfacing with hardware eg., embedded devices directly for direct hardware programming.
+Port Hub provides the ability to configure, manage, and target local ports.
 
-This is in a constant work in progress.
+Ports currently available to interface with;
 
-Deps:
-    Boost
-    notcurses
-    sd-device (lib from systemd)
-
-To build the project. Please under the root directory run:
-
-mkdir build
-
-cd build
-
-cmake ..
-
-make
-
-You will find the executable in build/bin/
+Serial, USB.
